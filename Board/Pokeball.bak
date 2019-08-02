@@ -1,0 +1,357 @@
+EESchema Schematic File Version 4
+LIBS:Pokeball-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+1V8 #PWR0101
+U 1 1 5D2A4F8D
+P 2350 1700
+F 0 "#PWR0101" H 2350 1550 50  0001 C CNN
+F 1 "+1V8" H 2365 1873 50  0000 C CNN
+F 2 "" H 2350 1700 50  0001 C CNN
+F 3 "" H 2350 1700 50  0001 C CNN
+	1    2350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_ATtiny:ATtiny441-SSU U1
+U 1 1 5D2A6DF1
+P 2350 2900
+F 0 "U1" H 1821 2946 50  0000 R CNN
+F 1 "ATtiny441-SSU" H 1821 2855 50  0000 R CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2350 2900 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8495-8-bit-AVR-Microcontrollers-ATtiny441-ATtiny841_Datasheet.pdf" H 2350 2900 50  0001 C CNN
+	1    2350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5D2A9549
+P 2700 1800
+F 0 "TP2" H 2758 1918 50  0000 L CNN
+F 1 "1V8" H 2758 1827 50  0000 L CNN
+F 2 "Pokeball:SingleWire" H 2900 1800 50  0001 C CNN
+F 3 "~" H 2900 1800 50  0001 C CNN
+	1    2700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5D2A9E8D
+P 2550 4050
+F 0 "TP1" H 2608 4168 50  0000 L CNN
+F 1 "GND" H 2608 4077 50  0000 L CNN
+F 2 "Pokeball:SingleWire" H 2750 4050 50  0001 C CNN
+F 3 "~" H 2750 4050 50  0001 C CNN
+	1    2550 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5D2AB995
+P 2350 4250
+F 0 "#PWR0103" H 2350 4000 50  0001 C CNN
+F 1 "GND" H 2355 4077 50  0000 C CNN
+F 2 "" H 2350 4250 50  0001 C CNN
+F 3 "" H 2350 4250 50  0001 C CNN
+	1    2350 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5D2AC502
+P 1100 1850
+F 0 "C1" H 1215 1896 50  0000 L CNN
+F 1 "10nF" H 1215 1805 50  0000 L CNN
+F 2 "Pokeball:ISP_flat" H 1138 1700 50  0001 C CNN
+F 3 "~" H 1100 1850 50  0001 C CNN
+	1    1100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D2AD859
+P 6400 2500
+F 0 "R1" H 6470 2546 50  0000 L CNN
+F 1 "8.2k" H 6470 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6330 2500 50  0001 C CNN
+F 3 "~" H 6400 2500 50  0001 C CNN
+	1    6400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D2AE334
+P 6400 3300
+F 0 "R2" H 6470 3346 50  0000 L CNN
+F 1 "3.3k" H 6470 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6330 3300 50  0001 C CNN
+F 3 "~" H 6400 3300 50  0001 C CNN
+	1    6400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR0104
+U 1 1 5D2AEAA4
+P 1100 1400
+F 0 "#PWR0104" H 1100 1250 50  0001 C CNN
+F 1 "+1V8" H 1115 1573 50  0000 C CNN
+F 2 "" H 1100 1400 50  0001 C CNN
+F 3 "" H 1100 1400 50  0001 C CNN
+	1    1100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5D2AF13D
+P 1100 2250
+F 0 "#PWR0105" H 1100 2000 50  0001 C CNN
+F 1 "GND" H 1105 2077 50  0000 C CNN
+F 2 "" H 1100 2250 50  0001 C CNN
+F 3 "" H 1100 2250 50  0001 C CNN
+	1    1100 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5D2AF7F4
+P 6400 2000
+F 0 "TP5" H 6458 2118 50  0000 L CNN
+F 1 "5V0" H 6458 2027 50  0000 L CNN
+F 2 "Pokeball:SingleWire" H 6600 2000 50  0001 C CNN
+F 3 "~" H 6600 2000 50  0001 C CNN
+	1    6400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5D2B1520
+P 6400 3750
+F 0 "#PWR0106" H 6400 3500 50  0001 C CNN
+F 1 "GND" H 6405 3577 50  0000 C CNN
+F 2 "" H 6400 3750 50  0001 C CNN
+F 3 "" H 6400 3750 50  0001 C CNN
+	1    6400 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2000 6400 2350
+Wire Wire Line
+	6400 3450 6400 3750
+Wire Wire Line
+	2350 1700 2350 1800
+Wire Wire Line
+	2350 3800 2350 4050
+Wire Wire Line
+	1100 1400 1100 1700
+Wire Wire Line
+	1100 2250 1100 2000
+Wire Wire Line
+	2350 1800 2700 1800
+Connection ~ 2350 1800
+Wire Wire Line
+	2350 1800 2350 2000
+Wire Wire Line
+	2550 4050 2350 4050
+Connection ~ 2350 4050
+Wire Wire Line
+	2350 4050 2350 4250
+Wire Wire Line
+	2950 2600 4100 2600
+Wire Wire Line
+	2950 3000 4100 3000
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5D2AB1C4
+P 4100 2600
+F 0 "TP3" H 4158 2718 50  0000 L CNN
+F 1 "1V2" H 4158 2627 50  0000 L CNN
+F 2 "Pokeball:SingleWire" H 4300 2600 50  0001 C CNN
+F 3 "~" H 4300 2600 50  0001 C CNN
+	1    4100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5D2AA654
+P 4100 3000
+F 0 "TP4" H 4158 3118 50  0000 L CNN
+F 1 "Button" H 4158 3027 50  0000 L CNN
+F 2 "Pokeball:SingleWire" H 4300 3000 50  0001 C CNN
+F 3 "~" H 4300 3000 50  0001 C CNN
+	1    4100 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1600 3250 2800
+Wire Wire Line
+	3250 2800 2950 2800
+Wire Wire Line
+	3150 1800 3150 2700
+Wire Wire Line
+	3150 2700 2950 2700
+Wire Wire Line
+	3450 2000 3450 3500
+Wire Wire Line
+	3450 3500 2950 3500
+$Comp
+L power:+1V8 #PWR0107
+U 1 1 5D2D1475
+P 3350 1450
+F 0 "#PWR0107" H 3350 1300 50  0001 C CNN
+F 1 "+1V8" H 3365 1623 50  0000 C CNN
+F 2 "" H 3350 1450 50  0001 C CNN
+F 3 "" H 3350 1450 50  0001 C CNN
+	1    3350 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 1450 3350 1700
+$Comp
+L power:GND #PWR0108
+U 1 1 5D2D1AE4
+P 3600 2300
+F 0 "#PWR0108" H 3600 2050 50  0001 C CNN
+F 1 "GND" H 3605 2127 50  0000 C CNN
+F 2 "" H 3600 2300 50  0001 C CNN
+F 3 "" H 3600 2300 50  0001 C CNN
+	1    3600 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2100 3600 2300
+Wire Wire Line
+	2950 2900 3350 2900
+Wire Wire Line
+	6400 2650 6400 2900
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J1
+U 1 1 5D2C887B
+P 5450 1800
+F 0 "J1" H 5500 2117 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 5500 2026 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5450 1800 50  0001 C CNN
+F 3 "~" H 5450 1800 50  0001 C CNN
+	1    5450 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3200 5700 2900
+Wire Wire Line
+	5700 2900 6400 2900
+Wire Wire Line
+	2950 3200 5700 3200
+Connection ~ 6400 2900
+Wire Wire Line
+	6400 2900 6400 3150
+$Comp
+L power:GND #PWR0102
+U 1 1 5D33E6D5
+P 4000 3550
+F 0 "#PWR0102" H 4000 3300 50  0001 C CNN
+F 1 "GND" H 4005 3377 50  0000 C CNN
+F 2 "" H 4000 3550 50  0001 C CNN
+F 3 "" H 4000 3550 50  0001 C CNN
+	1    4000 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3550 4000 3400
+Wire Wire Line
+	4000 3400 2950 3400
+Wire Wire Line
+	4000 3400 4000 3300
+Wire Wire Line
+	4000 3300 2950 3300
+Connection ~ 4000 3400
+$Comp
+L Connector_Generic:Conn_01x06 J3
+U 1 1 5D3CE950
+P 4400 1800
+F 0 "J3" H 4318 2217 50  0000 C CNN
+F 1 "Conn_01x06" H 4318 2126 50  0000 C CNN
+F 2 "Pokeball:ISP_flat_pins" H 4400 1800 50  0001 C CNN
+F 3 "~" H 4400 1800 50  0001 C CNN
+	1    4400 1800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2100 3600 2100
+Wire Wire Line
+	3650 2000 3450 2000
+Wire Wire Line
+	3350 1900 3650 1900
+Wire Wire Line
+	3650 1800 3150 1800
+Wire Wire Line
+	3350 1700 3650 1700
+Wire Wire Line
+	3650 1600 3250 1600
+$Comp
+L Connector_Generic:Conn_01x06 J2
+U 1 1 5D3CDA24
+P 3850 1800
+F 0 "J2" H 3800 2250 50  0000 L CNN
+F 1 "Conn_01x06" H 3650 2150 50  0000 L CNN
+F 2 "Pokeball:ISP_flat_socket" H 3850 1800 50  0001 C CNN
+F 3 "~" H 3850 1800 50  0001 C CNN
+	1    3850 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 1900 3350 2900
+Wire Wire Line
+	5250 1700 5000 1700
+Wire Wire Line
+	5000 1700 5000 1600
+Wire Wire Line
+	5000 1600 4600 1600
+Wire Wire Line
+	5250 1800 4600 1800
+Wire Wire Line
+	5250 1900 5000 1900
+Wire Wire Line
+	5000 1900 5000 2000
+Wire Wire Line
+	5000 2000 4600 2000
+Wire Wire Line
+	5750 1900 5800 1900
+Wire Wire Line
+	5800 1900 5800 2100
+Wire Wire Line
+	5800 2100 4600 2100
+Wire Wire Line
+	5750 1800 5950 1800
+Wire Wire Line
+	5950 1800 5950 2200
+Wire Wire Line
+	5950 2200 4700 2200
+Wire Wire Line
+	4700 2200 4700 1900
+Wire Wire Line
+	4700 1900 4600 1900
+Wire Wire Line
+	5750 1700 6100 1700
+Wire Wire Line
+	6100 1700 6100 2350
+Wire Wire Line
+	6100 2350 4850 2350
+Wire Wire Line
+	4850 2350 4850 1700
+Wire Wire Line
+	4850 1700 4600 1700
+Text Notes 6850 2700 0    50   ~ 0
+Umax=5.5V\nUadc<1.8V-10%\nR1<=10k (AVR ADC)\nR1=10k, R2=3.3k
+$EndSCHEMATC

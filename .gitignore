@@ -1,0 +1,7 @@
+/Firmware/PokeBall/Debug
+/Firmware/PokeBall/Release/Makefile
+/Firmware/PokeBall/Release/PokeBall.map
+/Firmware/PokeBall/Release/main.d
+/Firmware/PokeBall/Release/main.o
+/Firmware/PokeBall/Release/makedep.mk
+.DS_Store

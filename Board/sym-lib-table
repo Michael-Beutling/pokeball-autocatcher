@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name MCU_Microchip_ATtiny)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_ATtiny.lib)(options "")(descr ""))
+  (lib (name Connector_Generic_MountingPin)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector_Generic_MountingPin.lib)(options "")(descr ""))
+  (lib (name Connector_Generic)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector_Generic.lib)(options "")(descr ""))
+  (lib (name Connector)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector.lib)(options "")(descr ""))
+  (lib (name Device)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Device.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
+)

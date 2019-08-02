@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name Capacitor_SMD)(type KiCad)(uri ${KISYSMOD}/Capacitor_SMD.pretty)(options "")(descr ""))
+  (lib (name Connector_Pin)(type KiCad)(uri ${KISYSMOD}/Connector_Pin.pretty)(options "")(descr ""))
+  (lib (name Package_SO)(type KiCad)(uri ${KISYSMOD}/Package_SO.pretty)(options "")(descr ""))
+  (lib (name Resistor_SMD)(type KiCad)(uri ${KISYSMOD}/Resistor_SMD.pretty)(options "")(descr ""))
+  (lib (name Connector_PinHeader_2.54mm)(type KiCad)(uri ${KISYSMOD}/Connector_PinHeader_2.54mm.pretty)(options "")(descr ""))
+  (lib (name Connector_Wire)(type KiCad)(uri ${KISYSMOD}/Connector_Wire.pretty)(options "")(descr ""))
+  (lib (name Pokeball)(type KiCad)(uri ${KIPRJMOD}/Pokeball.pretty)(options "")(descr ""))
+  (lib (name Connector_PinHeader_1.27mm)(type KiCad)(uri ${KISYSMOD}/Connector_PinHeader_1.27mm.pretty)(options "")(descr ""))
+  (lib (name Footprints-Archiv)(type KiCad)(uri ${KIPRJMOD}/Footprints-Archiv.pretty)(options "")(descr ""))
+)
