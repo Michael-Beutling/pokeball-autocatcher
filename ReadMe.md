@@ -21,7 +21,7 @@ We need a third option which fit the following requirements:
 
 
 ## Solderpoints
-![Solder Points](Pictures/Ball - 1.jpg)
+![Solder Points](Pictures/Ball%20-%201.jpg)
 
 Color | Signal
 ------|-------
@@ -32,12 +32,12 @@ yellow | 1.2 V (core voltage?)
 brown | 5 V (LEDs & vibration unit)
 
 ## Wiring
-![Solder Points](Pictures/Ball - 2.jpg)
+![Solder Points](Pictures/Ball%20-%202.jpg)
 
 Don't forget to unplug the battery, before You soldering!
 
 ## Finished mod
-![Solder Points](Pictures/Ball - 3.jpg)
+![Solder Points](Pictures/Ball%20-%203.jpg)
 
 ## How it works
 
